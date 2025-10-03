@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+	body {
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+	}
+	div{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*deco*/
+div {font-size: 5vw;}
+#G {background-color: rgb(0, 255, 4); color: rgb(255, 0, 255);}
+#D {background-color: rgb(255, 0, 255); color : rgb(0, 255, 4);}
+
+@media (orientation: portrait) {
+	body {
+		flex-direction: column;
+	}
+}
+
+  </style>
+
+</head>
+<body>
+  <div id="G"><code></code>Fame</div>
+  <div id="D"><code></code>Flex</div>
+</body>
+</html>
